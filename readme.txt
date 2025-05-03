@@ -1,5 +1,5 @@
 === Openmrs Timeline ===
-Contributors:      The WordPress Contributors
+Author:            Felipe Lemos
 Tags:              block
 Tested up to:      6.7
 Stable tag:        0.1.0
