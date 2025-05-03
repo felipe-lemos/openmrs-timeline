@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "openmrs/timeline",
+	"version": "1.0.0",
+	"title": "OpenMRS Timeline",
+	"category": "design",
+	"icon": "clock",
+	"description": "Display a timeline of key events",
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Our history"
+		},
+		"heading": {
+			"type": "string",
+			"default": "We are crafting a shared vision for digital health"
+		},
+		"description": {
+			"type": "string",
+			"default": "Our community was founded in 2012 and has rapidly evolved into an essential component of digital health infrastructure around the world."
+		},
+		"linkText": {
+			"type": "string",
+			"default": "Read our story"
+		},
+		"linkUrl": {
+			"type": "string",
+			"default": "#"
+		},
+		"timelineItems": {
+			"type": "array",
+			"default": [
+				{
+					"date": "2012",
+					"description": "OpenMRS community founded",
+					"imageUrl": "",
+					"id": "item1"
+				},
+				{
+					"date": "2015",
+					"description": "First major implementation milestone",
+					"imageUrl": "",
+					"id": "item2"
+				},
+				{
+					"date": "2018",
+					"description": "Global expansion to 50+ countries",
+					"imageUrl": "",
+					"id": "item3"
+				}
+			]
+		}
+	},
+	"textdomain": "openmrs",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./editor.scss",
+	"style": "file:./style.scss"
+}

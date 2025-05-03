@@ -1,0 +1,22 @@
+// Editor-specific styles
+.timeline21_placeholder-image {
+	background: #f0f0f0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+	border-radius: 8px;
+	cursor: pointer;
+	color: #666;
+}
+
+// Make editor more compact for easier editing
+.wp-block-openmrs-timeline {
+	.timeline21_item {
+		margin-bottom: 15px;
+	}
+
+	.timeline21_progress-line {
+		min-height: 50px;
+	}
+}
